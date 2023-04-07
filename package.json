@@ -3,6 +3,7 @@
   "displayName": "html-erb-language",
   "description": "",
   "version": "0.0.1",
+  "publisher": "sekapi",
   "engines": {
     "vscode": "^1.77.0"
   },
@@ -20,6 +21,13 @@
           ".html.erb"
         ],
         "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "html-erb",
+        "scopeName": "text.html.basic",
+        "path": "./syntaxes/html-erb.tmLanguage.json"
       }
     ]
   }
