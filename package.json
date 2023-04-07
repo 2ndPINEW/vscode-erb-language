@@ -1,0 +1,26 @@
+{
+  "name": "html-erb-language",
+  "displayName": "html-erb-language",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.77.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "html-erb",
+        "aliases": [
+          "html-erb"
+        ],
+        "extensions": [
+          ".html.erb"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ]
+  }
+}
